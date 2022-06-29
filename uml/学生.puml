@@ -1,0 +1,19 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+interface app{
+}
+class Student {
+int id;
+String name;
+void eat();
+}
+
+enum 季节 {
+春天
+秋天
+冬天
+夏天
+}
+
+@enduml

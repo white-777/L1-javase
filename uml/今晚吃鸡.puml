@@ -1,0 +1,25 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+/'Soilder *-- Weapon'/
+Soilder o-- Weapon
+
+class Weapon {
+String name;
+int sl;
+void fire();
+}
+class Soilder{
+int id;
+int blood;
+Weapon weapon;
+
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

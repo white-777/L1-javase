@@ -1,0 +1,28 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+Person <|-Student
+Person <|-Employee
+
+
+
+class Person{
+String name;
+String gender;
+int age;
++String toString();
+}
+class Student{
+String school;
+}
+class Employee{
+String name;
+double salary;
+}
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

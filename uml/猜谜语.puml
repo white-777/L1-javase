@@ -1,0 +1,11 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+GuessGame <|-- GuessLetterGame
+class GuessGame{
+	+ void start();
+}
+class GuessLetterGame{
+
+}
+@enduml

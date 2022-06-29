@@ -1,0 +1,29 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+'Test中使用Point
+Test-->Point
+Circle*--Point
+
+class Point{
+int x;
+int y;
+void fuzhi();
+print();
+}
+class Circle{
+int r;
+Point o;
+double juli();
+}
+class Test{
+{static} void main(String[] args);
+}
+
+enum TimeUnit {
+DAYS
+HOURS
+MINUTES
+}
+
+@enduml

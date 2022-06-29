@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/sequence-diagram
+
+autonumber
+
+
+OutputStreamWriter -->FileOutputStream :writer()
+activate A
+FileOutputStream --> f3.dat文件: 写入数据
+OutputStreamWriter <--FileOutputStream :返回
+deactivate A
+@enduml
